@@ -1,0 +1,115 @@
+.body{
+    background-image: url("../../../Img/vigilado.png"), url("../../../Img/background.jpg");
+    background-position: 0 90%, center center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 93px 179px, 100% auto;
+    padding-top: 40px;
+    @include from(m){
+        padding: 40px;
+    }
+    @include from(l){
+        padding: 70px;
+    }
+    &__imagen{
+        background-image: url("../../../Img/ponentes-colfondos-final.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: auto 170px;
+        height: 170px;
+        width: auto;
+        @include from(m){
+            min-height: 250px;
+            width: auto;
+        }
+        @include from(l){
+            background-position:  right;
+            background-size: 100% auto;
+            height: 280px;
+            width: auto;
+        }
+        @include from(xl){
+            background-size: 80% 280px;
+            width: auto;
+            height: 350px;
+        }
+    }
+    &-text{
+        color:$blue;
+        &__paragraph{
+            font-family: $font-nm;
+            font-size: 16px;
+            line-height: 1;
+            margin: 60px 0 50px;
+            text-align: center;
+            width: 100%;
+            span{
+                font-weight: bold;
+            }
+            @include from(m){
+                margin: 30px 10px 15px;
+                margin-left: 35px;
+                text-align: justify;
+                width: 85%;
+            }
+            @include from(l){
+                width: 90%;
+                font-size: 24px;
+            }
+            @include from(xl){
+                width: 80%;
+                font-size: 25px;
+            }
+        }
+        &__data{
+            align-items: center;
+            margin-bottom: 30px;
+            font-family: $font-nm;
+            justify-content: center;
+            margin-left: 40px;
+            img{
+                height: 80px;
+                max-width: 80px;
+            }
+            div{
+                font-size: 1.5rem;
+                flex-direction: column;
+                margin-left: 15px;
+                span{
+                    font-size:18px;
+                    font-weight: bolder;
+                    margin-top: -7px;
+                    &:nth-child(1){
+                        color: $pink;
+                    }
+                    @include from(l){
+                        font-size: 22px;
+                    }
+                }
+            }
+            @include from(m){
+                justify-content: flex-start;
+                margin-bottom: 15px;
+            }
+            @include from(l){
+                margin-bottom: 30px;
+                margin-top: 30px;
+            }
+        }
+        .button{
+            justify-content: center;
+            margin-bottom: 50px;
+            a{
+                background-color: $red;
+                border-radius: 10px;
+                color:$white;
+                font-family: $font-nm;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            @include from(m){
+                justify-content: flex-start;
+                margin:0 40px 0;
+            }
+        }
+    }
+}
