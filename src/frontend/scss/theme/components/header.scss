@@ -1,0 +1,49 @@
+.header{
+    background-color: $white;
+    padding-top: 10px;
+    &__img{
+        display: flex;
+        justify-content: center;
+        img{
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 270px 80px;
+            height: 80px;
+            width: 270px;
+            @include from(l){
+                background-size: 280px 90px;
+                height: 90px;
+                width: 280px;
+            }
+        }
+    }
+    &-banner{
+        &__fondo{
+            align-items: center;
+            background-image: url("../../../Img/1-banner-bg.jpeg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            display: flex;
+            height: 100%;
+            justify-content: center;
+            margin-top: 20px;
+            width: 100%;
+            @include from(m){
+                background-size: 100% 100%;
+            width: 100%;
+            max-height: 150px;
+            }
+            @include from(l){
+                max-height: 200px;
+            }
+            img{
+                height: 100%;
+                width: 70%;
+                @include from(m){
+                    width: auto;
+                }
+            }
+        }
+    } 
+}
