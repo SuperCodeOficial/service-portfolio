@@ -1,4 +1,85 @@
 @import "../settings/index.scss";
-// @import "../Theme/components/header.scss";
-// @import "../Theme/components/body.scss";
-// @import "../Theme/components/footer.scss";
+@import "./components/banner.scss";
+@import "./components/Acordion.scss";
+
+header{
+    // border: 3px solid red;
+}
+section{
+    // margin: 250px 0;
+    // border: 3px solid aqua;
+
+}
+.container-slider{
+    // border: 3px solid red;
+    // margin: 40px 0;
+    padding: 50px 35px;
+}
+.slick-prev{
+    background-image: url("../../Img/left.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    left: -40px;
+    overflow: hidden;
+    height: 80px;
+    width: 50px;
+    &:hover, &:active, &:focus{
+        background-image: url("../../Img/left.png");
+        background-repeat: no-repeat;
+        background-position: top;
+    } 
+}
+
+.slick-next{
+    background-image: url("../../Img/right.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    right: -20px;
+    overflow: hidden;
+    height: 80px;
+    width: 50px;
+    &:hover, &:active, &:focus{
+        background-image: url("../../Img/right.png");
+        background-repeat: no-repeat;
+        background-position: top;
+    } 
+}  
+.card{
+    border: none;
+    // width: 70%;
+    padding: 10px;
+    width: 50px;
+    
+    // padding: 0 250px;
+    &-body{
+        // margin: 0 100px;
+        // border: 3px solid red;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // border: 3px solid yellow;
+        // width: 60%;
+        &__img{
+            border: 3px solid blue;
+            width: 100%;
+            @include from(l){
+                width: 70%;
+            }
+        }
+        &__text{
+            padding: 0 45px;
+            width: 100%;
+            border: 1px solid black;
+            border-radius: 60px 20px 5px;
+            @include from(l){
+                width: 70%;
+            }
+            height: 400px;
+        }
+    }
+    .slick-slider, .slider{
+        border: 3px solid red;
+    }
+}
