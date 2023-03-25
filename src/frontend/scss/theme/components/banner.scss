@@ -1,0 +1,270 @@
+.banner{
+    // border: 3px solid aqua;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    // padding-top: 40px;
+    // margin-top: 250px;
+    // justify-content: end;
+    // align-items:start;
+    &-content{
+      // display: flex;
+      @include from(xl){
+        margin-left: -300px;
+      margin-top: -150px;
+      }
+      // flex-direction: column;
+      // justify-content: flex-start;
+      // margin-right:400px;
+        // border: 3px solid red;
+        z-index: 2;
+        h1{
+            font-size: 50px;
+            margin-bottom: 0;
+            font-family: 'Lobster', cursive;
+        }
+        p{
+            font-size: 1rem;
+            display: block;
+            padding-bottom: 2rem;
+        }
+    }
+    &-overlay{
+        height: 80vh;
+        width: 100vw;
+        position: absolute;
+        // top: 0;
+        left: 0;
+        background: #303952;
+        z-index: 1;
+        opacity: .85;
+    }
+    &-video{
+        position: absolute;
+        top: 10;
+        left: 0;
+        width: 100%;
+        height: 80vh;
+        overflow: hidden;
+        video{
+            min-width: 100%;
+            min-height: auto;
+        }
+    }
+}
+.content {
+  // border: 3px solid green;
+    max-width: 40rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    // margin: 0;
+    // font-size: 1rem;
+    // line-height: 1.5;
+    // color: #333;
+    // overflow-x: hidden;
+  }
+  
+  .header {
+   
+  }
+  
+  
+  .header-video {
+   
+  }
+  
+  .header-video video {
+    
+  }
+  
+  .header-overlay {
+    
+  }
+  
+  .header-content {
+    
+  }
+  
+  .header-content h1 {
+    
+  }
+  
+  .header-content p {
+    
+  }
+  
+  .btn {
+    // background: #c44569;
+    // color: #fff;
+    // font-size: 1.2rem;
+    // padding: 1rem 2rem;
+    // text-decoration: none;
+  }
+  
+  // @media (max-width: 960px) {
+  //   .content {
+  //     padding: 0 3rem 0 3rem;
+  //   }
+  // }
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    overflow-x: hidden;
+  }
+  
+  .header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .content {
+    max-width: 40rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .header-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .header-video video {
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  .header-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #303952;
+    z-index: 1;
+    opacity: .85;
+  }
+  
+  .header-content {
+    z-index: 2;
+  }
+  
+  .header-content h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+    font-family: 'Lobster', cursive;
+  }
+  
+  .header-content p {
+    font-size: 1.5rem;
+    display: block;
+    padding-bottom: 2rem;
+  }
+  
+  .btn {
+    background: #c44569;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 960px) {
+    .content {
+      padding: 0 3rem 0 3rem;
+    }
+  }
+ 
+  .slick-list{
+    // border: 3px solid green;
+    .slick-track{
+      // border: 3px solid yellow;
+    }
+    .slick-arrow{
+      ::before{
+        border: 3px solid aqua;
+      }
+      // border: 3px solid purple;
+    }
+    div{
+      // border: 3px solid red;
+    }
+  }
+  button{
+    border: 3px solid brown;
+  }
+
+  .cont{
+    border: 3px solid red;
+    position: relative;
+    margin: 0;
+  }
+  .slider{
+    
+    // border: 3px solid aqua;
+    margin: 0;
+  }
+  .logo{
+    border: 3px solid blue;
+    // width: fit-content;
+    // margin-top: 250px;
+    // display: flex;
+  }
+  header{
+    // border: 3px solid yellow;
+    height: 90px;
+    @include from(xl){
+      height: 70px;
+    }
+    nav{
+      // border: 3px solid aqua;
+      // padding: 0;
+      // padding-left: 200px;
+      div{
+        margin: 0 20px;
+        @include from(m){
+          margin: 0 30px;
+        }
+        @include from(l){
+          margin: 0 120px;
+
+        }
+        img{
+          // border: 3px solid orange;
+          height: 50px;
+          @include from(l){
+            height: 60px;
+          }
+          @include from(xl){
+            height: 50px;
+          }
+          margin-top: 7px;
+        }
+      }
+      // border: 3px solid red;
+      display: flex;
+    }
+  }

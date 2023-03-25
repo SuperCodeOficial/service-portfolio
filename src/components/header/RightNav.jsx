@@ -12,12 +12,12 @@ const Ul = styled.ul`
     background-color:white;
     // border-bottom: 3px double;
     display:flex;
-    justify-content: center;
+    // justify-content: flex-end;
     align-items: center;
     flex-flow: row nowrap;
     z-index:10;
     // padding-left: 250px;
-    margin-top: -20px;
+    margin-top: -5px;
     // top:0;
     li{
         padding: 18px 10px;
@@ -29,6 +29,7 @@ const Ul = styled.ul`
         
         // border: 3px red solid;
         margin: 0 25px;
+        z-index: 300;
     }
     li: hover{
         background-color:#5956a8;
