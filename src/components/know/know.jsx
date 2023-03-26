@@ -6,9 +6,9 @@ export default function know() {
     <section className='mt-5'>
         <div className="container">
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-md-4 text-center">
               <h2>Conocimientos</h2>
-              <img src={ImageKnow} alt="" />
+              <img src={ImageKnow} alt="" height={230}/>
               </div>
                 <div className="col-md-8">
                   <AcordionComponent/>
