@@ -1,9 +1,10 @@
 import React from 'react';
-import Header from "../components/header/Header";
-import Banner from "../components/banner/banner_v";
-import Know from "../components/know/know";
-import Slider from "../components/know/Slider_experience";
-import Social from "../components/Flysocial/Flysocial";
+
+import Header from "../includes/Header";
+import Banner from "../components/banner";
+import Know from "../components/know";
+import Slider from "../components/Slider_experience";
+import Social from "../components/flysocial";
 import Proyects from "../components/proyects";
 import Footer from "../includes/footer";
 

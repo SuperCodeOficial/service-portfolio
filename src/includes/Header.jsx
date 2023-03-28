@@ -1,6 +1,6 @@
 import React from 'react';
-import Burger from "../header/Burger.jsx"
-import Logo from "../../frontend/Img/header/devops.png"
+import Burger from "../components/Burger";
+import Logo from ".././frontend/Img/header/devops.png";
 
 export default function Header() {
   return (

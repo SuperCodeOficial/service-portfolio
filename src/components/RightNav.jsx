@@ -1,11 +1,11 @@
 import React from 'react';
 
 import styled from 'styled-components';
-import Home from "../../frontend/Img/header/home.png";
-import Lang from "../../frontend/Img/header/web1-dev.png";
-import Know from "../../frontend/Img/header/know.png";
-import Proyect from "../../frontend/Img/header/proyect.png";
-import Contact from "../../frontend/Img/header/contactos.png";
+import Home from "../frontend/Img/header/home.png";
+import Lang from "../frontend/Img/header/web1-dev.png";
+import Know from "../frontend/Img/header/know.png";
+import Proyect from "../frontend/Img/header/proyect.png";
+import Contact from "../frontend/Img/header/contactos.png";
 
 const Ul = styled.ul`
     list-style:none;
