@@ -1,7 +1,7 @@
 // export {default} from "./BasicModal";
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import RightNav from '../../components/header/RightNav.jsx';
+import RightNav from '../components/RightNav';
 
 const StyledBurger = styled.div`
   width: 2rem;

@@ -1,6 +1,6 @@
 import React from 'react'
 import Acordion from "./Acordion";
-import ImageKnow from "../../frontend/Img/open-book.png";
+import ImageKnow from "../frontend/Img/open-book.png";
 export default function know() {
   return (
     <section className='mt-5'>

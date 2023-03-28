@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import Depura from "../../frontend/Img/logo-dp.svg";
-import Company from "../../frontend/Img/rompecabezas.png";
+import Depura from "../frontend/Img/logo-dp.svg";
+import Company from "../frontend/Img/rompecabezas.png";
 
 export default class PreviousNextMethods extends Component {
     constructor(props) {

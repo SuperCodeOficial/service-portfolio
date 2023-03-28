@@ -1,7 +1,7 @@
 import React from 'react'
-import Videofondo from "../../frontend/Vdo/Keyboard.mp4"
+import Videofondo from "../frontend/video/Keyboard.mp4"
 
-export default function banner_v() {
+export default function banner() {
   return (
     <section className='banner content section'>
       <div className="banner-video">
