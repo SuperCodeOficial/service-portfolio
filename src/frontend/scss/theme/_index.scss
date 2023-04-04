@@ -5,3 +5,16 @@
 @import "./components/flysocial.scss";
 @import "./components/proyect.scss";
 @import "./layout/Footer.scss";
+
+.title-component{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.line{
+    border-bottom: 4px solid $violet;
+    height: 10px;
+    margin-bottom: 20px;
+    width: 150px;
+}

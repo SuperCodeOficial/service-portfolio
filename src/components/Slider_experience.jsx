@@ -44,10 +44,13 @@ export default class PreviousNextMethods extends Component {
         ]
     };
     return (
-        <section className="experience">
+        <section className="experience" id="experience">
             
     <div className="container experience-container__slider">
-        <h2 className="text-center">Experiencia</h2>
+    <div className="title-component">
+                <h2>Conocimientos</h2>
+                <div className="line"></div>
+            </div>
         <Slider className="slider" ref={c => (this.slider = c)} {...settings}>
         <div className="card" key={1}>
             <div className="card-body">
