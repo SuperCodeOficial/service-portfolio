@@ -13,7 +13,7 @@ export default function banner() {
       <div className="banner-content">
         <h1>Maximino Rentería Moreno</h1>
         <span>Desarrollador Web</span>
-        <p>Aqui va el texto cantidad de ejemplo</p>
+        <p>Apasionado por resolver problemas escribiendo lineas de código frente al pc mientras disfruto una taza de cafe.</p>
       </div>
     </section>
   )
