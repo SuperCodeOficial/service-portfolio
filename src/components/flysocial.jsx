@@ -11,8 +11,8 @@ export default function Flysocial() {
     <div className='flysocial'>
       <div>
       <a href="https://www.facebook.com/maxdecristo.renteria.5" target={'_blank'} ><img src={LogoFace} alt="logo facebook"/></a>
-      <a href='#'><img src={LogoTwitt} alt="logo twitter"/></a>
-      <a href='#'><img src={LogoIns} alt="logo instagram"/></a>
+      <a href='https://twitter.com/renteriamax' target={'_blank'}><img src={LogoTwitt} alt="logo twitter"/></a>
+      <a href='https://www.instagram.com/11super.r/' target={'_blank'}><img src={LogoIns} alt="logo instagram"/></a>
       {/* // <a href='#'><img src={LogoYou} alt="logo youtube"/></a> */} 
       </div>
     </div>

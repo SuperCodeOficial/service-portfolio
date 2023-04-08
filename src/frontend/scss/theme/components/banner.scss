@@ -56,7 +56,9 @@
         position: absolute;
         // top: 0;
         left: 0;
-        background: #303952;
+        // background: #303952;
+        background:$violet, #303952;
+        background:linear-gradient($violet, #303952 90%);
         z-index: 1;
         opacity: .85;
     }

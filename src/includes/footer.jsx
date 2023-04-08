@@ -56,16 +56,16 @@ function FooterLogo(){
 function MoreInfo(){
     return(
         <div className="more">
-            <span>Contáctame aquí!</span>
+            <span>Más información!</span>
             <div className='footer-more-info'>
 
             <div className="footer-more-info__lg">
-                <img src={LogoLin} alt="" />
-                <img src={LogoGh} alt="" />
+                <a href="https://www.linkedin.com/in/maximino-renteria-moreno/" target={'_blank'}><img src={LogoLin} alt="" /></a>
+                <a href="https://github.com/SuperCodeOficial" target={'_blank'}><img src={LogoGh} alt="" /></a>
             </div>
             <div className="footer-more-info__te">
-                <img src={Whatsapp} alt="" />
-                <img src={Mail} alt="" />
+                <a href="https://api.whatsapp.com/send?phone=%2B573207022512&text=Hola%2C+he+visto+tu+portafolio.+deseo+saber+m%C3%A1s+de+t%C3%AD." target={'_blank'}><img src={Whatsapp} alt="" /></a>
+                <a href="mailto:maxanoiting18@gmail.com"><img src={Mail} alt="" /></a>
             </div>
         </div>
         </div>

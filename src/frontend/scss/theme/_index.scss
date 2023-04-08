@@ -4,6 +4,8 @@
 @import "./components/slider_experience.scss";
 @import "./components/flysocial.scss";
 @import "./components/proyect.scss";
+@import "./components/modal-details.scss";
+@import "./components/contact-form.scss";
 @import "./layout/Footer.scss";
 
 .title-component{
@@ -17,4 +19,12 @@
     height: 10px;
     margin-bottom: 20px;
     width: 150px;
+}
+.playlee{
+    // border: 3px solid red;
+    width:100%;
+    // height:auto;
+    // // margin:0;
+    // padding:0;
+    // objet-fit:cover;
 }

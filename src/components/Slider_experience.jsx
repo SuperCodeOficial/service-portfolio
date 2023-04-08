@@ -1,7 +1,12 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import Depura from "../frontend/Img/logo-dp.svg";
-import Company from "../frontend/Img/rompecabezas.png";
+
+import Playlee from "../frontend/Img/ylc.webp";
+import Modal from "../components/EstactExample";
+import DepuraM from "../components/depura-details";
+import YCL from "../components/playlee-details";
+import Hackaton from "../components/hackaton-details";
+
 
 export default class PreviousNextMethods extends Component {
     constructor(props) {
@@ -48,47 +53,18 @@ export default class PreviousNextMethods extends Component {
             
     <div className="container experience-container__slider">
     <div className="title-component">
-                <h2>Conocimientos</h2>
+                <h2>Experiencia</h2>
                 <div className="line"></div>
             </div>
         <Slider className="slider" ref={c => (this.slider = c)} {...settings}>
         <div className="card" key={1}>
-            <div className="card-body">
-            <div className="card-body__text">
-            <div className="card-body__img">
-                <img src={Depura} alt="" height={200}/>
-            </div>
-            <h3>Depura creatividad</h3>
-            <span>Desarrollador Frontend</span>
-            
-            <button>Ver<a href="#">más</a></button>
-            </div>
-            </div>
+            <DepuraM/>
         </div>
         <div className="card" key={2}>
-        <div className="card-body">
-            <div className="card-body__text">
-            <div className="card-body__img">
-            <img src={Company} alt="" height={200}/>
-            </div>
-            <h3>Empresa 2</h3>
-            <span>Desarrollador</span>
-            
-            <button>Ver<a href="#">más</a></button>
-            </div>
-            </div>
+            <YCL/>
         </div>
         <div className="card" key={3}>
-        <div className="card-body">
-            <div className="card-body__text">
-            <div className="card-body__img">
-            <img src={Company} alt="" height={200}/>
-            </div>
-            <h3>Empresa 3</h3>
-            <span>Desarrollador</span>
-            <button>Ver<a href="#">más</a></button>
-            </div>
-            </div> 
+            <Hackaton/>
         </div>
         </Slider>
         </div>
