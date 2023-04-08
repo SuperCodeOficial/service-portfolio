@@ -7,7 +7,9 @@
 @import "./components/modal-details.scss";
 @import "./components/contact-form.scss";
 @import "./layout/Footer.scss";
-
+.know{
+    padding-top: 20px;
+}
 .title-component{
     align-items: center;
     display: flex;
@@ -27,4 +29,16 @@
     // // margin:0;
     // padding:0;
     // objet-fit:cover;
+}
+.header-Max{
+    // border: 3px solid yellow;
+    // padding: 0;
+    display: flex;
+    justify-content: center;
+    // position: fixed;
+    position: fixed;
+    width: 100vw;
+    // border: 3px solid aqua;
+    z-index: 2000;
+    background-color: $gray;
 }
