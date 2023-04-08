@@ -24,6 +24,13 @@
                     @include from(l){
                         // width: 70%;
                     }
+                    .playlee{
+                        // border: 3px solid yellow;
+                        // width: 500px;
+                        // width: 100%;
+                        // height: auto;
+                        // object-fit: cover;
+                    }
                 }
                 &__text{
                     display: flex;

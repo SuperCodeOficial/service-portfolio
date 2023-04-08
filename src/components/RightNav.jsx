@@ -9,13 +9,14 @@ import Contact from "../frontend/Img/header/contactos.png";
 
 const Ul = styled.ul`
     list-style:none;
-    background-color:white;
+    // background-color:white;
     // border-bottom: 3px double;
     display:flex;
     // justify-content: flex-end;
     align-items: center;
     flex-flow: row nowrap;
     z-index:10;
+    // position:fixed;
     // padding-left: 250px;
     margin-top: -5px;
     // top:0;

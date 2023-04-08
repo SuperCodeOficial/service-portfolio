@@ -3,8 +3,8 @@ import Acordion from "./Acordion";
 import ImageKnow from "../frontend/Img/open-book.png";
 export default function know() {
   return (
-    <section className='mt-5' id='know'>
-      <div className="container">
+    <section className='know mt-5' id='know'>
+      <div className="container mt-5">
         <div className="row">
           <div className="col-md-4 text-center">
           <div className="title-component">

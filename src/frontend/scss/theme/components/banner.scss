@@ -1,21 +1,25 @@
 .banner{
     // border: 3px solid aqua;
+    
     height: 80vh;
     display: flex;
     align-items: center;
     color: #fff;
-    // padding-top: 40px;
+    padding-top: 100px;
     // margin-top: 250px;
     // justify-content: end;
     // align-items:start;
+    // margin-bottom: 100px;
     &-content{
       // border: 3px solid green;
       display: flex;
       flex-direction: column;
       // justify-content: flex-end;
       @include from(xl){
+        // margin: 100px 0 150px;
         margin-left: -300px;
       margin-top: -150px;
+
       }
       // flex-direction: column;
       // justify-content: flex-start;
@@ -56,11 +60,15 @@
         position: absolute;
         // top: 0;
         left: 0;
-        background: #303952;
+        // background: #303952;
+        background:$violet, #303952;
+        background:linear-gradient($violet, #303952 90%);
         z-index: 1;
         opacity: .85;
-    }
-    &-video{
+        margin: 100px 0 150px;
+      }
+      &-video{
+      margin: 100px 0 150px;
         position: absolute;
         top: 10;
         left: 0;

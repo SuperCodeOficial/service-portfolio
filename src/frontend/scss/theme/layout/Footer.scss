@@ -3,10 +3,12 @@
     padding: 20px 20px 5px;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    background-color: #5956a8;
+    background-color: $violet;
+    background:linear-gradient($violet 10%,#303952);
     .more{
         // border: 3px solid aqua;
         margin-top: 38px;
+        // text-decoration:underline;
     }
     &-about{
         // border: 3px solid red;
