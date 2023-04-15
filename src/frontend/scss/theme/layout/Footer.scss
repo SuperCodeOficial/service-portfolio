@@ -4,7 +4,7 @@
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     background-color: $violet;
-    background:linear-gradient($violet 10%,#303952);
+    background:linear-gradient($violet 100%,#303952);
     .more{
         // border: 3px solid aqua;
         margin-top: 38px;
@@ -48,7 +48,8 @@
         display: flex;
         // gap:50px;
         // border: 3px solid blue;
-        justify-content: space-evenly;
+        justify-content: center;
+        gap:10px;
         // align-items: center;
         // flex-direction: row;
         // justify-content: center;

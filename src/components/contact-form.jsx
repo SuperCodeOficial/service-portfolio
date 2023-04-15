@@ -6,7 +6,10 @@ import Phone from '../frontend/Img/phone.png';
 
 function BasicExample() {
   return (
-    <section className="contact">
+    <section className="contact" id='contact'>
+                  <div className="title-component">
+            <h2>Contácto</h2>
+            <div className="line"></div></div>
         <div className="container contact-container">
         <div className="row">
             <div className="contact-info col-lg-4">

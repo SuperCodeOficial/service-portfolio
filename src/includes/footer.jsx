@@ -10,7 +10,7 @@ import Mail from ".././frontend/Img/footer/mail.png";
 
 export default function footer() {
   return (
-    <footer className='footer' id='contact'>
+    <footer className='footer'>
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-3">

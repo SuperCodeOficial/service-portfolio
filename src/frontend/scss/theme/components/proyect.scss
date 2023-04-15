@@ -1,4 +1,6 @@
 .proyect{
+    // border: 3px solid red;
+    padding: 50px 0 0;
     &-container{
         padding: 25px;
     }
@@ -25,45 +27,71 @@
                 }
             }
             &__icons{
-                // border: 3px solid green;
+                display:flex;
+                justify-content: space-around;
+                margin: 15px 0;
             }
             &__action{
                 display: flex;
                 // justify-content: space-around;
-                padding: 10px;
+                padding: 10px 10px 20px;
                 gap: 10px;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+
                 @include from(l){
                     flex-direction: row;
                     gap: 0;
                 }
-                :nth-child(1){
-                    width: 130px;
-                    // border: 3px solid red;
-                    background: linear-gradient(to left, $violet 78%, $gray);
-                    color:$white;
-                    // font-weight: lighter;
-                    border-radius: 30px;
-                    @include from(m){
+
+                &-vivo{
+                    a{
+                        // border: 3px solid red;
+                        // font-size: 12px;
+                        text-decoration: none;
+                        // background-color: yellow;
                         border-radius: 30px 0 0 30px;
+                        background: linear-gradient(to left, $violet 78%, $gray);
+                        color:$white;
+                        padding: 4px 7px;
                     }
-                    border: none;
-                    padding: 4px 10px;
-                }
-                :nth-child(2){
-                    width: 130px;
-                    border-radius: 30px;
-                    @include from(m){
+                    // width: 150px;
+                    // width: fit-content;
+                    padding: 0;
+                    // width: 130px;
+                    // border: 3px solid red;
+                    // font-weight: lighter;
+                    // border-radius: 30px;
+                    // @include from(m){
+                        //     border-radius: 30px 0 0 30px;
+                        // }
+                        border: none;
+                        // padding: 4px 10px;
+                        // border: 1px solid aqua;
+                    }
+                &-code{
+                    a{
+                        // border: 3px solid red;
+                        text-decoration: none;
+                        color:black;
+                        background-color: $white;
                         border-radius:0 30px 30px 0;
+                        padding: 4px 7px;
                     }
+                    padding: 0;
+
+                    // width: 150px;
+                    // margin: 0;
+                    // border-radius: 30px;
+                    // @include from(m){
+                    //     border-radius:0 30px 30px 0;
+                    // }
                     border: none;
-                    background-color: $white;
-                    padding: 4px 10px;
+                    // padding: 4px 10px;
                     // color:#5956a8;
+                    // border: .5px solid aqua;
                 }
-                // border: 3px solid yellow;
             }
 
         }
