@@ -7,7 +7,7 @@ import Phone from '../frontend/Img/phone.png';
 function BasicExample() {
   return (
     <section className="contact" id='contact'>
-                  <div className="title-component">
+        <div className="title-component">
             <h2>Contácto</h2>
             <div className="line"></div></div>
         <div className="container contact-container">
@@ -32,20 +32,28 @@ function BasicExample() {
                 <span>Envía tu Mensaje</span>
                 <Form>
                     <Form.Group className="contact-details__name">
-                        <Form.Label className='field' >Nombres</Form.Label>
-                        <Form.Control className='text' type="text"/>
+                    <label htmlFor="" className='field'>Nombres</label>
+                        <div>
+                            <input type="email" name="" id="" className='text' />
+                        </div>
                     </Form.Group>
                     <Form.Group className="contact-details__phone mb-1">
-                        <Form.Label className='field'>Telefono/Celular</Form.Label>
-                        <Form.Control className='text' type="text" />
+                    <label htmlFor="" className='field'>Telefono/Celular</label>
+                    <div>
+                        <input type="email" name="" id="" className='text' />
+                    </div>
                     </Form.Group>
                     <Form.Group className="mb-1">
-                        <Form.Label className='field'>Correo Electronico</Form.Label>
-                        <Form.Control className='text' type="email"/>
+                        <label htmlFor="" className='field'>Correo Electronico</label>
+                        <div>
+                            <input type="email" name="" id="" className='text' />
+                        </div>
                     </Form.Group>
                     <Form.Group className="mb-1">
-                        <Form.Label className='field'>Mensaje</Form.Label>
-                        <Form.Control className='text' type="text"/>
+                        <label htmlFor="" className='field'>Mensaje</label>
+                        <div>
+                            <textarea name="" className='text' id="" ></textarea>
+                        </div>
                     </Form.Group>
                     <Form.Group className="send mb-1">
                 <Button type="submit">

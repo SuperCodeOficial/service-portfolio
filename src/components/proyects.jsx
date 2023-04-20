@@ -62,7 +62,7 @@ export default function proyects() {
                                 <button className="proyect-card-text__action-vivo"><a href="https://nextfirstproyect.vercel.app/" target='_blanḱ'>Ver en vivo</a>
                                 </button>
                                 <button className="proyect-card-text__action-code">
-                                <a href="" target='_blanḱ'>Ver Github</a>
+                                <a href="https://github.com/SuperCodeOficial/first-app-next" target='_blanḱ'>Ver Github</a>
                                 </button>
                             </div>
                         </div>

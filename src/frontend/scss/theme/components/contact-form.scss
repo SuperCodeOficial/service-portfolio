@@ -107,6 +107,12 @@
             border: none;
             border-bottom: 1.5px solid black;
             border-radius: 0;
+            width: 100%;
+            &::placeholder, &:focus, &:hover{
+                border: 0;
+                outline: none;
+                border-bottom: 1.5px solid black;
+            }
         }
     }
 }
